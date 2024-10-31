@@ -238,7 +238,7 @@ public class AddCashier extends javax.swing.JFrame {
            clearForm();
            
        } catch (Exception ex) {
-           JOptionPane.showMessageDialog(this, "Error occured in saving Check Rules by clicking [Help(?)] button");
+           JOptionPane.showMessageDialog(this, "Please Enter Valid unique User ID");
        }
         System.out.println("wooow");
     }
