@@ -4,11 +4,12 @@
  */
 package UserManage;
 
+abstract class humans{}
 /**
  *
  * @author goyum
  */
-public class Users {
+public class Users extends humans{
     private String UserID;
     private String Password;
 

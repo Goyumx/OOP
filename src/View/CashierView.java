@@ -331,7 +331,7 @@ public class CashierView extends javax.swing.JFrame {
     private void helpbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_helpbtnActionPerformed
         String msg ="Rules and Usage cases\n 1.By entering correct details and click save will save the Item\n";
         String msg1 ="2.Under left down side by typing the Category Number Items can be searched";
-        String msg2 ="\n\n\t Item Category Numbers";
+        String msg2 ="\n3.Item Code has to be unique\n\n\t Item Category Numbers";
         String msg3= "\n1.pet toys.\n 2.harnesses\n 3.cages \n 4.grooming\n " +"5.products\n 6.collars";
         String msg4 ="\nPlease Enter Valid category\nElse the item will not occur in search ";
         JOptionPane.showMessageDialog(this, msg+msg1+msg2+msg3+msg4);
